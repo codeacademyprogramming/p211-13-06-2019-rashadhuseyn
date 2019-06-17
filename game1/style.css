@@ -1,0 +1,66 @@
+*{
+box-sizing: border-box;
+text-decoration: none;
+margin: auto;
+}
+.end{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+background-color: rgba(0, 0, 0, 0.438);
+color: white;
+font-size: 4em;
+display: flex;
+align-items: center;
+text-align: center;
+position: absolute;
+z-index: 3;
+}
+#gameplatform{
+width: 80%;
+height: 600px;
+border: 3px solid black;
+border-top-color: transparent;
+border-radius: 5px;
+position: relative;
+background-image: url(images/time\ to\ play.jpg);
+background-size: cover;
+}
+#gameplatform>img{
+width: 100%;
+height: 50px;
+position: absolute;
+bottom: 0px;
+left: 0px;
+}
+.i{
+width: 50px;
+font-size: 4em;
+position: fixed;
+top: 30%;
+left: 10%;
+color: rgb(75, 75, 230);
+text-align: center;
+display: flex;
+}
+.fruit{
+background-color: aquamarine;
+position: absolute;
+width: 50px;
+height: 50px;
+}
+.fruit img{
+width: 100%;
+height: 100%;
+}
+
+.collected{
+width: 10px;
+height: 10px;
+position: absolute;
+z-index: 3;
+}
+.collected img{
+width: 100%;
+height: 100%;
+}
